@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f3f4;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    width: 250px;
+    background: #ffffff;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+}
+.sidebar h2 {
+    margin-bottom: 20px;
+    color: #202124;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar li {
+    margin: 15px 0;
+}
+.sidebar a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.sidebar a:hover {
+    color: #0b57d0;
+}
+.content {
+    flex: 1;
+    padding: 40px;
+}
+  // if(snm.equals("background"))
+		  // {
+			  // %>
+			  // <%@ include file='change_background.jsp' %>
+			  // <%
+		  // }
+		  // if(snm.equals("theme"))
+		  // {
+			  // %>
+			  // <%@ include file='change_theme.jsp' %>
+			  // <%
+		  // }
+		  // if(snm.equals("password"))
+		  // {
+			  // %>
+			  // <%@ include file='change_password.jsp' %>
+			  // <%
+		  // }
